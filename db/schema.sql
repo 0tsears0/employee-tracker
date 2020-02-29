@@ -3,14 +3,14 @@ CREATE DATABASE employee_db;
 USE employee_db;
 
 CREATE TABLE department (
-department_name VARCHAR(30),
-id INT PRIMARY KEY
+id INT PRIMARY KEY,
+department_name VARCHAR(30)
 );
 
 CREATE TABLE employee_role (
 id INT PRIMARY KEY,
 title VARCHAR(30),
-salary DECIMAL NOT NULL,
+salary DECIMAL (10,2) DEFAULT 0 NOT NULL,
 department_id INT NOT NULL
 );
 

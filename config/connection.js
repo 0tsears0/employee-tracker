@@ -12,5 +12,5 @@ const connection = mysql.createConnection({
   database: process.env.DB_NAME
 });
 
-// export our connection
+// export connection
 module.exports = connection;
