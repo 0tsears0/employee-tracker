@@ -6,4 +6,4 @@ Inquirer is used to prompt the user, and the user is able to input values or sel
 
 Users are also able to add information to the employee_db. 
 
-This app is useful for those interested in viewing all employees in a given department or access particular employees and their role within a department.
+This app is useful for those interested in viewing all employees in a given department or accessing particular employees and their role within a department.
